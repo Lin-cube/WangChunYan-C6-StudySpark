@@ -12,28 +12,31 @@
 |----|----|
 | 本地仓库路径 | `WangChunYan_C6_2023105110151/`（本提交包根目录，含产品源码 `app/` 与全部交付文档） |
 | 分支 | `main` |
-| 建议 GitHub 仓库名 | `WangChunYan-C6-StudySpark` |
-| 远程仓库地址 | ⬜ 待推送后填写：`https://github.com/<你的GitHub用户名>/WangChunYan-C6-StudySpark.git` |
+| GitHub 仓库名 | `WangChunYan-C6-StudySpark` |
+| 远程仓库地址 | ✅ `https://github.com/Lin-cube/WangChunYan-C6-StudySpark.git` |
+| 访问地址 | ✅ https://github.com/Lin-cube/WangChunYan-C6-StudySpark |
+| 推送状态 | ✅ 已推送（main 分支已建立跟踪，远端与本地提交一致） |
 
-## Git 提交记录（本地已就绪，提交信息清晰可追溯）
+## Git 提交记录（已全部推送至远端）
 
 ```
-feat: StudySpark Web 应用——AI 闪卡+自测题生成（含演示模式与响应式布局）
-docs: 初始化 C6 提交包，明确挑战内容、要求与预期输出
-docs: 补齐 C6 全部交付文档（app链接/repo链接/AI日志/拿来说明/AAR/demo脚本）
+1efeaed docs: 补充 C6 demo 演示录屏（StudySpark 出题→翻卡→答题判分→导出 Markdown）
+6688491 docs: 补齐 C6 全部交付文档（app链接/repo链接/AI日志/拿来说明/AAR/demo脚本）
+aaaae48 feat: StudySpark Web 应用——AI 闪卡+自测题生成（含演示模式与响应式布局）
+417cf18 docs: 初始化 C6 提交包，明确挑战内容、要求与预期输出
 ```
 
-## 推送到 GitHub 的步骤（3 分钟）
+全部提交的署名均为 `Lin-cube <2082128917@qq.com>`。
+
+## 推送结果
 
 ```bash
-# 1. 在 GitHub 网页上新建空仓库 WangChunYan-C6-StudySpark（不要勾选 README）
-
-# 2. 在本目录执行（把 <你的GitHub用户名> 换成你的账号）：
-cd WangChunYan_C6_2023105110151
-git remote add origin https://github.com/<你的GitHub用户名>/WangChunYan-C6-StudySpark.git
+# 已在 GitHub 新建公开仓库（未勾选 README），本地 main 已建立跟踪并推送成功
+git remote add origin https://github.com/Lin-cube/WangChunYan-C6-StudySpark.git
 git push -u origin main
-
-# 3. 推送完成后，把远程地址填回上面的表格，并同步更新本文件
+# 校验：远端 refs/heads/main = 本地 HEAD = 1efeaed
+#       远端 tree sha = 本地 HEAD^{tree} = 11225390…3ccc3b7（内容逐字节一致）
+#       远端共 15 个文件（含 app/ 源码 4 个 + 全部交付文档 + demo 视频）
 ```
 
 ## 与 C5 的联动建议
@@ -51,6 +54,7 @@ WangChunYan-C6-StudySpark/
 ├── WangChunYan_C6_AI日志.md         # AI 使用记录
 ├── WangChunYan_C6_拿来说明.md       # 借鉴来源（ATTRIBUTION）
 ├── WangChunYan_C6_AAR复盘.md        # AAR 反思
+├── WangChunYan_C6_demo.mp4          # demo 演示录屏（实际提交的视频）
 ├── WangChunYan_C6_demo脚本.md       # demo 视频分镜脚本
 └── app/                             # Web 应用源码
     ├── index.html
