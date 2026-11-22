@@ -75,13 +75,13 @@ C4 你有一个能力 → C5 你把它变成别人能协作的项目 → C6 你�
 
 | 交付物 | 文件名 | 状态 |
 |--------|--------|------|
-| 可访问网址 | `WangChunYan_C6_app链接.md` | ✅ 部署后填写 |
+| 可访问网址 | `WangChunYan_C6_app链接.md` | ✅ 已部署上线 |
 | Demo 视频（30–60 秒） | `WangChunYan_C6_demo.mp4` | 📋 需本人录屏（脚本见 `WangChunYan_C6_demo脚本.md`） |
 | GitHub repo | `WangChunYan_C6_repo链接.md` | ✅ 本地仓库已建，推送步骤见文件内说明 |
-| ⚡ AI 日志 | `WangChunYan_C6_AI日志.md` | ✅ |
+| ⚡ AI 日志 | `WangChunYan_C6_AI日志.md` | ✅ 5 轮迭代全记录 |
 | 拿来说明（ATTRIBUTION） | `WangChunYan_C6_拿来说明.md` | ✅ |
 | AAR 复盘 | `WangChunYan_C6_AAR复盘.md` | ✅ |
-| 产品源码 | `app/` | ✅ 完整可运行 |
+| 产品源码 | `app/` | ✅ 完整可运行，已部署 |
 
 ## 五、本提交包目录结构
 
@@ -110,14 +110,14 @@ WangChunYan_C6_2023105110151/
 ## 七、提交前自查清单（CHALLENGE.md 第十四节）
 
 ```
-□ URL 可公开访问（不需要登录开发环境）
-□ 30 秒内能看懂这个 App 是干什么的
-□ 核心功能可用（输入 → 处理 → 输出，完整走通）
-□ AI 是核心功能的一部分（不是点缀）
-□ 手机浏览器上基本可用
-□ API Key 没有暴露在前端代码里（采用用户自填 Key + localStorage 方案）
-□ 有 Demo 视频或截图
-□ 有 AI_LOG.md
-□ 有 ATTRIBUTION.md
-□ 群内已分享链接并邀请试用
+☑ URL 可公开访问（不需要登录开发环境）✅ https://studyspark-flashcards.app.workbuddy.host/?sharecode=EGTVJX6EZX
+☑ 30 秒内能看懂这个 App 是干什么的 —— Hero 一句话 + 三步说明
+☑ 核心功能可用（输入 → 处理 → 输出，完整走通）—— Node 测试验证 + 失败自动降级
+☑ AI 是核心功能的一部分（不是点缀）—— 生成即核心（🔵 进阶层）
+☑ 手机浏览器上基本可用 —— 响应式布局（发布后建议真机再走查）
+☑ API Key 没有暴露在前端代码里（用户自填 Key + localStorage，零硬编码）
+☐ 有 Demo 视频或截图 —— 按 demo 脚本录屏后勾选
+☑ 有 AI_LOG.md
+☑ 有 ATTRIBUTION.md
+☐ 群内已分享链接并邀请试用 —— 用 app链接.md 中的分享文案
 ```
